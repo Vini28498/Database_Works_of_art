@@ -1,0 +1,19 @@
+Mapeamento dos campos - Projeto Conceitual
+
+artista = {codart, nome, qtd_obras_vendidas}
+
+loja = {codloja, nome, endereco}
+
+obras_arte = {codobra, nome, preco, tipo, codart}
+ codart – chave estrangeira referenciando artista
+ tipo: 0 – escultura, 1 – pintura
+
+escultura = {codobra, tecnica, material}
+ codobra – chave estrangeira referenciando obras_arte
+
+pintura = {codobra, estilo, recurso}
+ codobra – chave estrangeira referenciando obras_arte
+
+venda = {idvenda, data, comissao, codloja, codobra}
+ codloja – chave estrangeira referenciando loja
+ codobra – chave estrangeira referenciando obras_arte
