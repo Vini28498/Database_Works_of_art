@@ -1,6 +1,7 @@
 # Database-_Works_of_art
 
-![image](https://github.com/Vini28498/Database-_Works_of_art/assets/63620777/1a93e74a-4ef0-4db3-81c6-006680d6a183)
+![image](https://github.com/Vini28498/database_works_of_art/assets/63620777/c52bad12-3767-44e8-807b-0571d0449c5f)
+
 
 Criação de uma visão (view) para cada obra de arte do tipo escultura que já foi vendida: a data da venda, o código da loja, o nome da obra, o nome do artista e o preço da obra.
 
